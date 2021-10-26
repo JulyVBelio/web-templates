@@ -5,11 +5,14 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -18,7 +21,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/bg1.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,17 +36,20 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #F5CD54;
+  /* color: #18d26e; */
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #CF9064;
+  /* color: #35e888; */
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
 }
 
 /*--------------------------------------------------------------
@@ -67,21 +73,24 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 #header h1 a, #header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
 }
+/* Frase: "Ser la mejor versión de mi misma en todo lo que hago" */
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
+  /* color: rgba(255, 255, 255, 0.8); */
 }
 #header h2 span {
-  color: #fff;
-  border-bottom: 2px solid #18d26e;
+  color: #F2F1A1;
+  border-bottom: 2px solid #F5CD54;
   padding-bottom: 6px;
 }
 #header img {
@@ -93,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 #header .social-links a {
-  font-size: 16px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +115,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #CF9064;
+  /* background: #18d26e; */
 }
 @media (max-width: 992px) {
   #header h1 {
@@ -117,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 30px;
   }
   #header .social-links {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   #header .container {
     display: flex;
@@ -186,10 +196,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 20px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
+  /* color: rgba(255, 255, 255, 0.7); */
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -205,7 +217,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #F5CD54;
+  /* background-color: #18d26e; */
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -215,14 +228,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: white;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: white;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -278,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
 }
 
@@ -315,7 +328,7 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -323,14 +336,16 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #F5CD54;
+  /* background: #4ceb95; */
   margin: 4px 10px;
 }
 .section-title p {
@@ -339,8 +354,8 @@ section .container {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -348,8 +363,10 @@ section .container {
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
-  font-size: 26px;
-  color: #18d26e;
+  font-size: 35px;
+  color: #F5CD54;
+  text-align: center;
+  /* color: #18d26e; */
 }
 .about-me .content ul {
   list-style: none;
@@ -364,9 +381,10 @@ section .container {
   margin-right: 10px;
 }
 .about-me .content ul i {
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #F5CD54;
+  /* color: #18d26e; */
   line-height: 0;
 }
 .about-me .content p:last-child {
@@ -394,7 +412,8 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #FFEE58;
+  /* color: #18d26e; */
   border-radius: 50px;
   line-height: 0;
 }
@@ -407,7 +426,8 @@ section .container {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 14px;
 }
 
@@ -421,13 +441,15 @@ section .container {
   border-radius: 0;
 }
 .skills .progress .skill {
+  font-size: 14px;
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #fff;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  color: white;
 }
 .skills .progress .skill .val {
   float: right;
@@ -439,8 +461,8 @@ section .container {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: 0.9s;
-  background-color: #18d26e;
+  transition: 0.8s;
+  background-color: #F5CD54;
 }
 
 /*--------------------------------------------------------------
@@ -464,7 +486,7 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: white;
 }
 .interests .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
@@ -492,7 +514,7 @@ section .container {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #fff;
+  color: white;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -535,7 +557,8 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #F5CD54;
+  /* background-color: #18d26e; */
 }
 
 /*--------------------------------------------------------------
@@ -546,7 +569,7 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: white;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
@@ -559,8 +582,10 @@ section .container {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  font-family: 'Didact Gothic', sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  color: #F5CD54;
+  /* color: #18d26e; */
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -588,8 +613,9 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #F5CD54;
+  /* background: #18d26e; */
+  border: 2px solid #F5CD54;
 }
 
 /*--------------------------------------------------------------
@@ -605,7 +631,8 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: #F5CD54;
+  /* background: #18d26e; */
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -615,7 +642,7 @@ section .container {
   transform-style: preserve-3d;
 }
 .services .icon-box .icon i {
-  color: #fff;
+  color: white;
   font-size: 28px;
 }
 .services .icon-box .icon::before {
@@ -636,28 +663,35 @@ section .container {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: #fff;
+  color: white;
 }
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
+/* Contenedor del servicio */
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  box-shadow: 3px 3px 30px 3px #F5CD54;
+  /* background: #CF9064; */
+  /* border-color: red; */
+  /* background: #18d26e;
+  border-color: #18d26e; */
 }
+/* Color del contenedor del ícono */
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #F5CD54;
 }
+/* Color del ícono */
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: white;
+  /* color: #18d26e; */
 }
-.services .icon-box:hover .icon::before {
+/* .services .icon-box:hover .icon::before {
   background: #35e888;
-}
+} */
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -689,7 +723,7 @@ section .container {
   border-radius: 4px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #F5CD54;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -736,8 +770,8 @@ section .container {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -756,11 +790,11 @@ section .container {
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: white;
   font-weight: 600;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: white;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -778,7 +812,8 @@ section .container {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #F5CD54;
+  /* color: #63eda3; */
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -857,7 +892,8 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #F5CD54;
+  /* background-color: #18d26e; */
 }
 
 /*--------------------------------------------------------------
@@ -871,7 +907,8 @@ section .container {
 }
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #F5CD54;
+  /* color: #18d26e; */
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -885,7 +922,7 @@ section .container {
 }
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: white;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -897,13 +934,14 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: white;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
 }
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #F5CD54;
+  /* color: #18d26e; */
 }
 .contact .php-email-form {
   padding: 30px;
@@ -923,7 +961,8 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #F5CD54;
+  /* background: #18d26e; */
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -941,7 +980,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #F5CD54;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -977,15 +1016,17 @@ section .container {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #F5CD54;
+  /* background: #18d26e; */
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: white;
   transition: 0.4s;
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #15bb62;
+  background: #CF9064;
+  /* background: #15bb62; */
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1026,9 +1067,17 @@ section .container {
   }
 }
 .credits a {
-  color: #18d26e;
+  color: #FFEE58;
+  /* color: #18d26e; */
   transition: 0.3s;
 }
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Estilo propio
+--------------------------------------------------------------*/
+/* .icon-style{
+  font-size: 1.6rem;
+} */
