@@ -245,3 +245,26 @@
   });
 
 })()
+
+/**
+   * Typed.js, efecto de inicio
+*/
+const typed = new Typed('.typed', {
+  // Configuraciones como velocidad, delay...
+  strings : [
+    'Ser la <span>mejor versión</span> de mi misma en todo lo que hago',
+    'Ser la <span>mejor versión</span> de mi misma en todo lo que hago',
+    'Ser la <span>mejor versión</span> de mi misma en todo lo que hago',
+  ],
+  // stringsElement: '#cadenas-texto',
+  typeSpeed: 50, // Velocidad en milisegundos para poner una letra
+  startDelay: 500, // Tiempo de retraso en iniciar la animación
+  backSpeed: 50, // Velocidad en milisegundo para borrar una letra
+  shuffle: false, // Alterar el orden en el que se escriben las letras
+  backDelay: 1000, // Tiempo de espera después de que termina de escribir una palabra
+  loop: true, // Repetir el array de strings
+  loopCount: false, // Cantidad de veces a repetir el array. false = infinite
+  showCursor: false, // Mostrar el cursos palpitando
+  cursorChar: '|', // Caracter para el cursor
+  contentType: 'html', // 'html' o 'null' para texto sin formato
+});
